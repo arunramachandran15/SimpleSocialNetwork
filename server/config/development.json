@@ -1,0 +1,15 @@
+{
+  "connection" : {
+    "client":"postgresql",
+    "host":"localhost",
+    "database":"social1",
+    "charset":"utf8",
+    "user" : "arun",
+    "password" : null,
+    "ssl":false
+  },
+  "JWT_token": "4AVmHk8=!D7rC8f719&^Km'qc5gh]OM"
+}
+
+
+

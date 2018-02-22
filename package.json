@@ -1,0 +1,40 @@
+{
+  "name": "postgres-express-react-node-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "./node_modules/.bin/nodemon ./bin/www -w app.js -w server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.15.2",
+    "dump-die": "^1.0.0",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.1",
+    "knex": "^0.14.4",
+    "merge-util": "^0.3.1",
+    "morgan": "^1.7.0",
+    "node-path": "0.0.3",
+    "node-validator": "^0.1.27",
+    "password-hash": "^1.2.2",
+    "pg": "^6.2.4",
+    "pg-hstore": "^2.3.2",
+    "promise": "^8.0.1",
+    "queue-fifo": "^0.2.4",
+    "sequelize": "^4.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.2",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-react": "^5.2.2",
+    "nodemon": "^1.11.0"
+  }
+}
