@@ -1,3 +1,11 @@
 Welcome to Friends Network
 -------------------------------
 A basic social network
+
+Server folder has routes,controller and models
+Migration folder is in root directory itself. 
+
+Using knexjs for query building.
+
+Used promises mostly to handle asynchronous calls
+
