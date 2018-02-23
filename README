@@ -1,11 +1,28 @@
 Welcome to Friends Network
 -------------------------------
-A basic social network
+
+A basic social network demo in Nodejs with postgresDB.
+
+Features :  
+1. Username password signup and login
+2. Add friends for a user
+3. Find distance between 2 users if connected
+4. Delete all relationship between users (user_friends)
+
+Connection and distance between 2 users is calculated using BFS
+
+Deployed http server and postgresDB in heroku free hosting.
+https://globalfriends.herokuapp.com/
+heroku pg:psql postgresql-symmetrical-36191 --app globalfriends
+
+Postman api collection link :
+https://www.getpostman.com/collections/29e6fbb1fbb4e4b32a24
 
 Server folder has routes,controller and models
 Migration folder is in root directory itself. 
 
 Using knexjs for query building.
-
 Used promises mostly to handle asynchronous calls
+
+
 
