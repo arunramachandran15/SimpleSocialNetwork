@@ -26,10 +26,12 @@ Used promises mostly to handle asynchronous calls
 
 Steps to run locally
 1. clone the repository and cd 
-2. npm install
+2. 'npm install'
 3. postgres should have been installed and running 
-4. node bin/www, server will start in port 8000
-5. Use the postman collection and change donain to localhost
+4. create a database in postgres and change development.json in config folder accordingly
+5. run 'knex migrate:latest' to run migration. To create tables.
+4. 'node bin/www', server will start in port 8000
+5. Use the postman collection mentioned above and change domain to localhost
 
 
 
