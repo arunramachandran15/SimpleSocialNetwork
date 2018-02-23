@@ -24,5 +24,15 @@ Migration folder is in root directory itself.
 Using knexjs for query building.
 Used promises mostly to handle asynchronous calls
 
+Steps to run locally
+1. clone the repository and cd 
+2. npm install
+3. postgres should have been installed and running 
+4. node bin/www, server will start in port 8000
+5. Use the postman collection and change donain to localhost
+
+
+
+
 
 
