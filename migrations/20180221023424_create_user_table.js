@@ -10,9 +10,9 @@ exports.up = function(knex, Promise) {
 	        table.unique(['name']);
 		}),
 		knex.schema.createTable('user_friends', function(table){
-			table.increments('id').unsigned().primary()																	//chocolate//coke//lays
-			table.integer('user_id').unsigned().notNull();
-			table.integer('friend_id').unsigned().notNull();
+			table.increments('id').unsigned().primary();																//chocolate//coke//lays
+			table.integer('user_id').unsigned().notNull().references('id').inTable('users');
+			table.integer('friend_id').unsigned().notNull().references('id').inTable('users');;
 			table.timestamps()
 		})
 	])
