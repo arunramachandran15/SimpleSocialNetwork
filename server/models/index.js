@@ -7,7 +7,9 @@ var knex = require('knex')({
     password : config.connection.password,
     database : config.connection.database,
     charset  : config.connection.charset,
-    timezone : "UTC"
+    timezone : "UTC",
+    port : 5432,
+    ssl: true
   },
   pool: {
     min: 1,
@@ -16,5 +18,6 @@ var knex = require('knex')({
 });
 
 console.log('DB connection established')
+//console.log(knex);
 
 module.exports.knex = knex;
